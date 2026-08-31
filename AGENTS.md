@@ -21,8 +21,8 @@ When interacting in this workspace, all personal agents (including Antigravity, 
 ## 2. Planning & Task Execution Workflow
 
 1. **Agent Skills**:
-   - Local skills reside in the `.agents/skills/` directory (specifically `grill-me` installed from `mattpocock/skills`) and are tracked in `skills-lock.json`.
-   - Agents must actively utilise available workspace skills (such as `grill-me`) to spec out requirements, question assumptions, structure tasks, and plan executions.
+   - Local skills reside in the `.agents/skills/` directory (including `find-skills`, `grill-me`, and `uv-package-manager`) and are tracked in `skills-lock.json`.
+   - Agents must actively utilise available workspace skills (such as `grill-me` for grilling assumptions, `find-skills` for discovering skills, and `uv-package-manager` for managing Python dependencies) to spec out requirements, question assumptions, structure tasks, and plan executions.
 2. **Branch per Task Rule**:
    - Every distinct task, strategy piece, or feature development **must be executed on its own dedicated Git branch** (e.g., `task/<short-description>`, `strategy/<topic>`, `feature/<name>`).
    - Never commit directly to `main` without establishing a clear task branch first.
