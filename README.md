@@ -9,7 +9,7 @@ This repository serves as a personal workspace designed for strategising, brains
 - `events/`: Event planning files, agendas, timelines, and post-event reviews.
 - `tasks/`: Task tracking lists, action items, and operational logs.
 - `scripts/`: Python and Bash utility scripts for workspace management and task automation.
-- `.agents/`: Local AI agent skills (including `superpowers` and `uv-package-manager`).
+- `.agents/`: Local AI agent skills (including `mattpocock/skills` and `uv-package-manager`).
 
 ## Agent Instructions
 
